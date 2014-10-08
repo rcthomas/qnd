@@ -22,7 +22,7 @@ Sub-class `Point` like so:
             ...
 
         def _is_compliant( self ) :
-            if sugar > flour :
+            if self.sugar > self.flour :
                 return False
             return True
 
